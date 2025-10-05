@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITF Website By it23-68070265</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+
+<body>
+    <nav>
+        <p >68070265</p>
+        <p >ITf Website</p>
+        <p >Week 14</p>
+    </nav>
+
+    <header>
+        <div class="img" style="margin-top: 15px; margin-left: 20px;">
+            <img src="Moon_Lord.jpg" alt="Terraria Game." style="width: 200px;">
+        </div>
+        <div class="text" style="margin: 30px 20px;">
+            <h1>Hello! Welcome to ITF Terraria Bank.🏦</h1>
+            <p>Welcome to my first HTML + CSS + JS website!!!</p>
+        </div>
+    </header>
+    <hr style="text-align: center; margin: 20px 40px;">
+
+    <section style="display: grid; margin: 15px 40px;">
+        <textarea name="history" id="history" rows="10" readonly style="background-color: rgb(255, 218, 255); text-align: center;">
+        </textarea>
+    </section>
+
+    <div class="container">
+        <div class="acOverview">
+            <h1>Account Overview</h1>
+            <div class="aboutac" style="margin: 30px 0px;">
+                <div class="imgaccount" style="text-align: left;">
+                    <img src="Terraria.jpg" alt="Profile Account" style="width: 50px;">
+                </div>
+                <div class="accountInfomation" style="margin-left: 30px;">
+                    <h3 style="margin: 7px 0px;">Account Infomation</h3>
+                    <b><p style="margin: 0px 0px;">Name :</b> Arahung summa</p>
+                    <b><p style="margin: 7px 0px;">Type :</b> Savings Account</p>
+                </div>
+            </div>
+
+            <div class="balance">
+                <div class="aboutba">
+                    <div class="imgbalance">
+                        <img src="Terraria.jpg" alt="Balance Infomation" style="width: 50px; margin-top: 35px;">
+                    </div>
+                    <div class="balanceInfomaiton" style="margin-left: 30px;">
+                        <h3 style="margin: 0px 0px;">Balance Infomation</h3>
+                        <label style="margin: 0px 0px;">Current Account</label>
+                        <input type="number" id="accountbalance"><br>
+                        <label style="margin: 0px 0px;">Balance :</label><br>
+                        <label style="margin: 0px 0px;">Current Cash</label>
+                        <input type="nuber" id="cashbalance"><br>
+                        <label style="margin: 0px 0px;">Balance :</label><br>
+                        <button onclick="setBalance()" type="button" class="button">
+                            <div class="button-top">Change</div>
+                            <div class="button-bottom"></div>
+                            <div class="button-base"></div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="aboutbank" style="margin: 30px 0px ">
+                    <div class="imgbank" style="margin-left: 5px;">
+                        <img src="Goblin.jpg" alt="Bank Operation" style="width: 45px;">
+                    </div>
+                    <div class="bankoperation" style="margin-left: 30px;">
+                        <h3 style="margin: 0px 0px;">Bank Operation</h3>
+                        <select id="operation">
+                            <option value="deposit">Deposit</option>
+                            <option value="withdraw">Withdraw</option>
+                        </select>
+                        <input type="number" id="amount" placeholder="Enter amount"><br>
+                        <button onclick="proceed()">Proceed</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="finanTools">
+            <h1>Financial Tools</h1>
+            <div class="aboutfinan">
+                <div class="currency">
+                    <img src="Terraria.jpg" alt="Currency Converter" style="width: 50px; margin-top: 20px;">
+                </div>
+                <div class="currencyconverter" style="margin-left: 25px;">
+                    <h3 style="margin: 0px 0px;">Currency Converter</h3>
+                    <label style="margin: 0px 0px;">Input Balance :</label>
+                    <input type="number" id="inputBalance" value="0"><br>
+                    <label style="margin: 0px 0px;">Output Balance :</label>
+                    <input type="number" id="outputBalance" readonly><br>
+                    <label style="margin: 0px 0px;">Input Currency : </label>
+                    <select id="currency">
+                        <option value="usd">USD</option>
+                        <option value="thb">THB</option>
+                    </select>
+                    <button onclick="convert()">Convert</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="second.js"></script>
+</body>
+</html>
