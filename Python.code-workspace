@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "Python",
+			"path": "../../../Desktop/Jame_for_work/Python"
+		},
+		{
+			"name": "Project",
+			"path": "../../../Desktop/Jame_for_work/Python/Project"
+		},
+		{
+			"name": "HTML_CSS_JavaScript",
+			"path": "../../../Desktop/Jame_for_work/HTML_CSS_JavaScript"
+		},
+		{
+			"name": "Java",
+			"path": "../../../Desktop/Jame_for_work/Java"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GitHub"
+	}
+}
